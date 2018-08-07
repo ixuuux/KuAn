@@ -39,7 +39,7 @@ if __name__ == '__main__':
 3.难点
 使用Charles配合MuMu模拟器抓包获得url
 headers中有一参数至关重要，即x-app-token，目测是根据时间经过某种算法计算得来，
-这里提供一个："eb2f51ceffc67e0d3ac00708336bd8fadb7471dd-739b-3569-9d1d-ea26e64edf230x5c6d7c47"（2018-8-4 22:10可用），具体什么时间不能用了我就不晓得了。
+这里提供一个："eb2f51ceffc67e0d3ac00708336bd8fadb7471dd-739b-3569-9d1d-ea26e64edf235x5c6d7c47"（2018-8-4 22:10可用），具体什么时间不能用了我就不晓得了。
 其他方面暂未遇到难点
 
 4.原始返回数据结构
@@ -98,7 +98,7 @@ headers = {
     "user-agent": "Dalvik/2.1.0 (Linux; U; Android 5.1.1; HUAWEI MLA-AL10 Build/HUAWEIMLA-AL10) (#Build; HUAWEI; HUAWEI MLA-AL10; MLA-AL10-user 5.1.1 HUAWEIMLA-AL10 500180710 release-keys; 5.1.1) +CoolMarket/8.6",
     "x-requested-with": "XMLHttpRequest",
     "x-app-id": "com.coolapk.market",
-    "x-app-token": "eb2f51ceffc67e0d3ac00708336bd8fadb7471dd-739b-3569-9d1d-ea26e64edf230x5c6d7c47",
+    "x-app-token": "eb2f51ceffc67e0d3ac00708336bd8fadb7471dd-739b-3569-9d1d-ea26e64edf235x5c6d7c47",
 }
 
 (未使用代理、cookie)
